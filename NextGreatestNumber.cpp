@@ -58,7 +58,10 @@ int main()
 	cout<<"Enter the Number\t:";
 	cin>>inputNum;
 	if(inputNum == 0)
-			exit(0);
+	{
+		cout<<"Input Number is Zero. Exiting\n"
+		return 1;
+	}
 	temp = inputNum;
 	while(temp > 0)
 	{
